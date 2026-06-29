@@ -85,11 +85,9 @@ const Loan: React.FC = () => {
             />
             <div className="md:hidden  absolute top-6 md:bottom-1 md:top-40 left-42 -translate-x-1/2 sm:left-20 sm:translate-x-0  sm:top-1/2 sm:-translate-y-1/2 bg-white rounded-[24px] sm:rounded-[30px] border-white shadow-4xl p-5 sm:p-8 w-[68%] sm:w-[300px]">
               <h3 className="text-lg sm:text-xl font-bold text-black">
-                Billy Watkins
+                Lewis Baird
               </h3>
-              <p className="text-gray-800 mt-2 text-xs">
-                Senior Loan Officer
-              </p>
+              <p className="text-gray-800 mt-2 text-xs">Senior Loan Officer</p>
 
               <p className="text-gray-800 text-xs mt-2">NMLS ID: 173855</p>
             </div>
@@ -98,7 +96,7 @@ const Loan: React.FC = () => {
             {socialIcons.map((icon) => (
               <a
                 key={icon.id}
-                href={icon.url} 
+                href={icon.url}
                 className="w-9 h-9 sm:w-10 sm:h-10 rounded-full border border-gray-500 flex items-center justify-center hover:bg-green-700 transition group"
                 aria-label={icon.alt}
                 target="_blank"

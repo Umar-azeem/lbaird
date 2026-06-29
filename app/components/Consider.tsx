@@ -13,11 +13,11 @@ function Consider() {
 
             <h2 className="text-[25px] sm:text-[40px] lg:text-[35px] leading-[1.2] font-bold text-[#1f1f1f] mb-4 sm:mb-10">
               We Consider Our Clients to Be Our Most Valuable Asset.
-
             </h2>
 
             <p className="text-[15px] text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-10 sm:mb-14">
-             The pillars in our brand mark represent our three core commitments to our clients.
+              The pillars in our brand mark represent our three core commitments
+              to our clients.
             </p>
 
             <Link href="/contact-us">
@@ -25,11 +25,8 @@ function Consider() {
               <button className="bg-[#006132] w-full sm:w-auto flex items-center justify-center gap-3 text-white px-6 py-4 rounded-xl font-bold transition transform duration-300 hover:-translate-y-1">
                 Contact
               </button>
-            </Link>           
+            </Link>
           </div>
-
-
-
 
           {/* <div className="bg-[#004D22] text-white p-6 sm:p-10 rounded-2xl shadow-xl border border-[#005C29] relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full blur-2xl -mr-10 -mt-10" />
@@ -39,7 +36,7 @@ function Consider() {
                 Loan Officer Profile
               </p>
               <h3 className="text-3xl sm:text-4xl font-bold mb-1 tracking-tight">
-                About Billy Watkins
+                About Lewis Baird
               </h3>
               <p className="text-green-200 text-xs sm:text-sm font-medium mb-6">
                 NMLS #384700

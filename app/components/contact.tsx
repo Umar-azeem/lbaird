@@ -25,7 +25,6 @@ const socialLinks = [
     alt: "LinkedIn",
     url: "https://www.linkedin.com/company/cornerstone-first-mortgage/",
   },
- 
 ];
 
 export default function Contact() {
@@ -59,7 +58,7 @@ Message:
 ${message || "No additional message provided."}
 
 ---
-This inquiry was sent from the Billy Watkins Mortgage website.`,
+This inquiry was sent from the Lewis Baird Mortgage website.`,
     );
 
     window.open(
@@ -473,25 +472,23 @@ This inquiry was sent from the Billy Watkins Mortgage website.`,
           <div className="flex flex-wrap items-start gap-x-6 gap-y-2 font-medium text-gray-700 text-sm">
             <span>NMLS ID: 173855</span>
             <Link
-                href="https://wa.me/118668151803"
-                className="flex gap-2 w-full px-4"
-              >
-                <button className="">
-                  (866) 815-1803{" "}
-                </button>
-              </Link>
+              href="https://wa.me/118668151803"
+              className="flex gap-2 w-full px-4"
+            >
+              <button className="">(866) 815-1803 </button>
+            </Link>
             <a
               href="https://www.nmlsconsumeraccess.org"
               target="_blank"
               rel="noreferrer"
               className="underline hover:text-[#006132]"
             >
-               www.nmlsconsumeraccess.org
+              www.nmlsconsumeraccess.org
             </a>
           </div>
           <p className="leading-relaxed">
-            <strong>Equal Housing Opportunity:</strong> Billy Watkins Mortgage
-            is an Equal Housing Opportunity lender. We are pledged to the letter
+            <strong>Equal Housing Opportunity:</strong> Lewis Baird Mortgage is
+            an Equal Housing Opportunity lender. We are pledged to the letter
             and spirit of U.S. policy for the achievement of equal housing
             opportunity throughout the Nation.
           </p>
