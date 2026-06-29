@@ -13,6 +13,7 @@ import {
   Landmark,
   BarChart3,
   FileTextIcon,
+  ActivityIcon,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -83,7 +84,7 @@ const loanProducts: LoanProduct[] = [
     id: "/loan-programs?program=arm",
     title: "Adjustable-Rate (ARM) Loans",
     description: "Start with lower rates that adjust over time.",
-    icon: <Activity className="w-6 h-6" />,
+    icon: <ActivityIcon />,
   },
 ];
 
